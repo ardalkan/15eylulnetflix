@@ -151,10 +151,7 @@ else:
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #  database files
-MEDIA_URL = ''
-MEDIA_ROOT = os.path.join(
-    BASE_DIR / 'media'
-)
+
 
 # messages
 from django.contrib.messages import constants as messages
